@@ -31,7 +31,7 @@ function App() {
         break;
 
       case ' ': player.style.top = (playerTop - 5) + "px"
-        break;
+        break; //check code
 
       case 'ArrowDown': player.style.top = (playerTop + 5) + "px";
         console.log(playerTop)

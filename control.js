@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='container'>
+      <div className='background'>
         <div className="player"></div>
       </div>
 

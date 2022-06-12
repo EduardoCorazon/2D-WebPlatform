@@ -7,6 +7,7 @@ function App() {
     document.addEventListener('keydown', detectKeyDown, true);
   }, [])
 
+  //For detecting key presses
   const detectKeyDown = (e) => {
     console.log("clicked key", e.key)
     let player = document.querySelector('.player');
@@ -38,8 +39,6 @@ function App() {
         console.log(playerTop)
         break;
     }
-
-
   }
   //Main Code part here, add JSX
   return (
@@ -51,5 +50,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

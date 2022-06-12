@@ -3,5 +3,11 @@
 }
 
 .background {
-    background-color: aqua;
+    background-color: blueviolet;
+}
+
+.platform {
+    background-color: cadetblue;
+    height: 300px;
+    width: 100%;
 }

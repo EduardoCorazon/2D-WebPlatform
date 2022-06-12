@@ -1,3 +1,4 @@
+
 import './style.css';
 import { useState, useEffect } from "react";
 
@@ -40,13 +41,12 @@ function App() {
 
 
   }
-
+  //Main Code part here, add JSX
   return (
     <div className="App">
       <div className='background'>
         <div className="player"></div>
       </div>
-
     </div>
   );
 }
